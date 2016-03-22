@@ -2,7 +2,7 @@
 =====================================
 **Chromium** is an open-source browser project that can be used to render web pages and dynamic graphics at lightning speed. ([see](http://www.chromium.org/developers/design-documents/displaying-a-web-page-in-chrome)).
 
-**CryHTML5** is a bridge between the [Chromium Embedded Framework](https://code.google.com/p/chromiumembedded/) and the CryEngine renderer, which allows developers to rapidly build UI for their games using the highly prevalent HTML5 format. Furthermore, developers can use JavaScript and the numerous open source JavaScript libraries available to browser based apps in the game engine.
+**CryHTML5** is a bridge between the [Chromium Embedded Framework](https://bitbucket.org/chromiumembedded/cef) and the CryEngine renderer, which allows developers to rapidly build UI for their games using the highly prevalent HTML5 format. Furthermore, developers can use JavaScript and the numerous open source JavaScript libraries available to browser based apps in the game engine.
 
 CryHTML5 is licensed under the terms of GNU LGPL 2.1 license.
 
