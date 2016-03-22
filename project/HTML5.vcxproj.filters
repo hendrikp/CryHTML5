@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Flownodes">
+      <UniqueIdentifier>{2dc899da-1db9-476f-aea5-c362b0312606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{410aacba-b8a3-4464-bb58-6ef536226a25}</UniqueIdentifier>
+      <Extensions>bat;astylerc</Extensions>
+    </Filter>
+    <Filter Include="Installer">
+      <UniqueIdentifier>{ae54b2cf-e8a4-4f6a-b51e-b50cc1b7e8d9}</UniqueIdentifier>
+      <Extensions>nsi;nsh</Extensions>
+    </Filter>
+    <Filter Include="d3d">
+      <UniqueIdentifier>{1d8bd2f9-9be2-4f34-aa40-efb0aaf08ed4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CEF">
+      <UniqueIdentifier>{4bd68dd2-0371-4551-b2dc-0389e7a091fa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\readme.md" />
+    <None Include="..\changelog.md" />
+    <None Include="..\tools\build.bat">
+      <Filter>Tools</Filter>
+    </None>
+    <None Include="..\tools\codestyle.astylerc">
+      <Filter>Tools</Filter>
+    </None>
+    <None Include="..\tools\stylecode.bat">
+      <Filter>Tools</Filter>
+    </None>
+    <None Include="..\tools\build_installer.bat">
+      <Filter>Installer</Filter>
+    </None>
+    <None Include="..\tools\HTML5_Installer.nsi">
+      <Filter>Installer</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\license.txt" />
+    <Text Include="..\authors.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CPluginHTML5Module.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CPluginHTML5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FullscreenTriangleDrawer.cpp">
+      <Filter>d3d</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CPluginHTML5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\IPluginHTML5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\FullscreenTriangleDrawer.h">
+      <Filter>d3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CEFHandler.hpp">
+      <Filter>CEF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CEFRenderHandler.hpp">
+      <Filter>CEF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CEFCryPak.hpp">
+      <Filter>CEF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CEFInputHandler.hpp">
+      <Filter>CEF</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="version.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
